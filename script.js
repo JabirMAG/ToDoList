@@ -4,7 +4,7 @@ const listContainer = document.getElementById("list-container");
 
 function AddTask(){
 if(inputBox.value === ''){
-    alert("SKRIV NOE DA!");
+    alert("Skriv noe, og husk, jeg er built different");
 }
 else{
     let li = document.createElement("li");
